@@ -1,0 +1,17 @@
+{
+    "name": "Setting",
+    "alias": "setting",
+    "description": "",
+    "keywords": [],
+    "active": 0,
+    "order": 0,
+    "providers": [
+        "Modules\\Setting\\Providers\\MainServiceProvider"
+    ],
+    "aliases": {
+        "Setting": "Modules\\Setting\\Facades\\SettingFacade"
+    },
+    "files": [
+    ],
+    "requires": []
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Socialite",
+    "alias": "socialite",
+    "description": "",
+    "keywords": [],
+    "active": 0,
+    "order": 0,
+    "providers": [
+        "Modules\\Socialite\\Providers\\SocialiteServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+    ],
+    "requires": []
+}

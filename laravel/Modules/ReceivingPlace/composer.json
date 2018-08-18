@@ -1,0 +1,26 @@
+{
+  "name": "ganguo/receiving-place",
+  "description": "收货地址",
+  "keywords": [],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "stevie",
+      "email": "stevie@ganguo.hk"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\ReceivingPlace\\": ""
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+      ],
+      "aliases": []
+    }
+  }
+}

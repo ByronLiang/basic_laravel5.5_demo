@@ -1,0 +1,26 @@
+{
+  "name": "ganguo/district-gable",
+  "description": "省市区默认数据",
+  "keywords": [],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "stevie",
+      "email": "stevie@ganguo.hk"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\DistrictGable\\": ""
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+      ],
+      "aliases": []
+    }
+  }
+}

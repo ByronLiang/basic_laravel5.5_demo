@@ -1,0 +1,52 @@
+//消息圆圈
+[data-badge] {
+  position: relative;
+
+  &:after {
+    content: attr(data-badge);
+    position: absolute;
+    text-align: center;
+    border-radius: 50%;
+    top: -.15rem;
+    right: -.15rem;
+    font-size: .2rem;
+    background: #d79523;
+    color: white;
+    width: .3rem;
+    height: .3rem;
+    line-height: .3rem;
+  }
+}
+
+//超出省略
+.ellipsis {
+  display: -webkit-box; //必须结合的属性 ，将对象作为弹性伸缩盒子模型显示 。
+  //-webkit-box-orient //必须结合的属性 ，设置或检索伸缩盒对象的子元素的排列方式 。
+  text-overflow: ellipsis; //，可以用来多行文本的情况下，用省略号“…”隐藏超出范围的文本 。
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; //第几行显示缩略符号
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+}
+
+.min-height{
+  min-height: 100vh;
+}
+
+.right-arrow{
+  position: relative;
+
+  &::before{
+    position: absolute;
+    right: .15rem;
+    top: 50%;
+    margin-top: -.13rem;
+    line-height: .3rem;
+    color: #d7d7d7;
+    font-family: "iconfont";
+    content: "\e621";
+
+  }
+}

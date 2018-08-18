@@ -1,0 +1,19 @@
+{
+  "name": "ganguo/alipay_aop",
+  "description": "支付宝sdk",
+  "keywords": ["alipay", "laravel", "sdk"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "stevie",
+      "email": "stevie@ganguo.hk"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Ganguo\\AlipayAop\\": ""
+    }
+  }
+}

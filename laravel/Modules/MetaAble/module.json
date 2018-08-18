@@ -1,0 +1,15 @@
+{
+    "name": "MetaAble",
+    "alias": "metaable",
+    "description": "",
+    "keywords": [],
+    "active": 0,
+    "order": 0,
+    "providers": [
+        "Modules\\MetaAble\\Providers\\MetaAbleServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+    ],
+    "requires": []
+}

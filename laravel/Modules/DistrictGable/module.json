@@ -1,0 +1,15 @@
+{
+    "name": "DistrictGable",
+    "alias": "districtgable",
+    "description": "省市区列表数据",
+    "keywords": [],
+    "active": 0,
+    "order": 0,
+    "providers": [
+        "Modules\\DistrictGable\\Providers\\DistrictGableServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+    ],
+    "requires": []
+}

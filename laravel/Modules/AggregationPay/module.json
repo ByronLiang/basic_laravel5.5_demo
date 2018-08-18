@@ -1,0 +1,15 @@
+{
+    "name": "AggregationPay",
+    "alias": "aggregationpay",
+    "description": "聚合支付",
+    "keywords": [],
+    "active": 0,
+    "order": 0,
+    "providers": [
+        "Modules\\AggregationPay\\Providers\\AggregationPayServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+    ],
+    "requires": []
+}

@@ -1,0 +1,26 @@
+//https://sass-guidelin.es/#architecture
+
+@import 'abstracts';
+
+/* Base */
+@import 'base/reset';
+@import 'base/colors';
+
+/* components */
+
+
+/*图片字体等*/
+@import "assets";
+/*辅助类*/
+@import "helper";
+
+/*
+
+//@import 'pages/home';
+
+//@import 'themes/theme';
+//@import 'themes/admin';
+*/
+
+/* 第三方类 */
+@import "vendors";

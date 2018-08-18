@@ -1,0 +1,15 @@
+{
+    "name": "ReceivingPlace",
+    "alias": "receivingplace",
+    "description": "收货地址",
+    "keywords": [],
+    "active": 0,
+    "order": 0,
+    "providers": [
+        "Modules\\ReceivingPlace\\Providers\\ReceivingPlaceServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+    ],
+    "requires": []
+}

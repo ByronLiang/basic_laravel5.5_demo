@@ -1,0 +1,14 @@
+{
+    "name": "TagGable",
+    "alias": "taggable",
+    "description": "",
+    "keywords": [],
+    "active": 0,
+    "order": 0,
+    "providers": [
+        "Modules\\TagGable\\Providers\\TagGableServiceProvider"
+    ],
+    "aliases": [],
+    "files": [],
+    "requires": []
+}

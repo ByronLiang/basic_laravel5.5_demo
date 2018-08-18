@@ -1,0 +1,17 @@
+{
+    "name": "ganguo/tag-gable",
+    "description": "标签管理库",
+    "authors": [
+        {
+            "name": "ganguo",
+            "email": "g@ganguo.io"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\TagGable\\": ""
+        }
+    }
+}

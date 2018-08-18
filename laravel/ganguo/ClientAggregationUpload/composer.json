@@ -1,0 +1,28 @@
+{
+  "name": "ganguo/client-aggregation-upload",
+  "description": "客户端聚合上传",
+  "keywords": ["laravel", "sdk"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "stevie",
+      "email": "stevie@ganguo.hk"
+    }
+  ],
+  "require": {
+    "overtrue/laravel-filesystem-qiniu": "^0.0.3",
+    "pion/laravel-chunk-upload": "^1.1.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ganguo\\ClientAggregationUpload\\": ""
+    }
+  },
+  "extra": {
+    "laravel": {
+      "aliases": {
+        "ClientAggregationUpload": "Ganguo\\ClientAggregationUpload\\ClientAggregationUpload"
+      }
+    }
+  }
+}

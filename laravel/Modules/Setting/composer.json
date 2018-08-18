@@ -1,0 +1,17 @@
+{
+    "name": "ganguo/setting",
+    "description": "全部设置管理库",
+    "authors": [
+        {
+            "name": "ganguo",
+            "email": "g@ganguo.io"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Setting\\": "."
+        }
+    }
+}
