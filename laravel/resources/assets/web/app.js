@@ -2,7 +2,8 @@ import 'babel-polyfill';
 import 'core-js/modules/es7.promise.finally';
 
 import Vue from 'vue';
-import './config/bootstrap';
+import App from './App.vue';
+import * as bootstrap from './config/bootstrap';
 
 /**
  * variable | placeholder(type)
@@ -10,6 +11,6 @@ import './config/bootstrap';
 Vue.filter('placeholder', require('./filters/placeholder').default);
 
 window.vm = new Vue({
-    el: '#content',
-    components: require('./components'),
-});
+    ...App,
+    ...bootstrap,
+}).$mount('#app');

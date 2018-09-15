@@ -35,10 +35,6 @@
                 <router-view></router-view>
             </el-main>
         </el-container>
-
-        <data-import ref="dataImport"></data-import>
-        <day-and-password ref="dayAndPassword"></day-and-password>
-        <user-power ref="userPower"></user-power>
     </el-container>
 </template>
 

@@ -38,20 +38,20 @@ mix
             // chunkFilename: 'static/js/[name]' + (mix.inProduction() ? '.[chunkhash]' : '') + '.js',
             chunkFilename: 'static/chunk/[name].js' + (mix.inProduction() ? '?[chunkhash]' : ''),
         },
-        module: {
-            rules: [
-                {
-                    test: /\.(js|vue)$/,
-                    loader: 'eslint-loader',
-                    enforce: 'pre',
-                    exclude: /(node_modules)/,
-                    options: {
-                        // fix: true,
-                        formatter: require('eslint-friendly-formatter'),
-                    },
-                },
-            ],
-        },
+        // module: {
+        //     rules: [
+        //         {
+        //             test: /\.(js|vue)$/,
+        //             loader: 'eslint-loader',
+        //             enforce: 'pre',
+        //             exclude: /(node_modules)/,
+        //             options: {
+        //                 // fix: true,
+        //                 formatter: require('eslint-friendly-formatter'),
+        //             },
+        //         },
+        //     ],
+        // },
         resolve: {
             alias: {
                 'axios': 'axios/dist/axios.min.js',

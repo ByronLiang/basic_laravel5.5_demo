@@ -71,9 +71,20 @@ Vue.prototype.$location = require('common/helpers/location');
  * https://github.com/ElemeFE/element
  */
 
-import {Loading, MessageBox, Message} from 'element-ui';
+import {
+    Loading,
+    MessageBox,
+    Notification,
+    Message,
+    Tooltip,
+    Card,
+    Button,
+} from 'element-ui';
 
 Vue.use(Loading.directive);
+Vue.use(Tooltip);
+Vue.use(Card);
+Vue.use(Button);
 
 window.$ele = {
     $loading: Loading.service,
@@ -90,7 +101,7 @@ import Api from '../api';
 /**
  * @type {AxiosInstance}
  */
-window.API = new Api();
+window.API = new Api('/');
 
 // 微信签名，进入页面是签一次
 // import {wxConfig} from '../api/Wechat';

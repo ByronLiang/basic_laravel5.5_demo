@@ -27,18 +27,7 @@ module.exports = {
                     meta: {
                         title: '主页',
                     },
-                }, {
-                    name: 'ChatList',
-                    path: 'chat_list',
-                    component: lazyLoading('Chat/list'),
-                    meta: {
-                        title: '聊天室列表',
-                    },
-                }, {
-                    name: 'ChatRoom',
-                    path: 'chat_room/:id?',
-                    component: lazyLoading('Chat/room'),
-                }
+                },
             ],
         }, {
             path: '*',
